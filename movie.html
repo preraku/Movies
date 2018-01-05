@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- http://www.omdbapi.com/?i=tt3896198&apikey=778e40bf -->
+<div class="container">
+    <h1>Your watchlist</h1>
+    <p>The last movie you logged</p>
+    <p>Want to look up a movie? Enter the movie name here and we'll get started.</p>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="movieName">Movie name:</label>
+        <input type="movieName" class="form-control" id="movieName" placeholder="Enter movie name">
+      </div>
+      <div class="form-group">
+        <label for="tvName">TV show name:</label>
+        <input type="tvName" class="form-control" id="tvName" placeholder="Enter TV show name">
+      </div>
+ 
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
